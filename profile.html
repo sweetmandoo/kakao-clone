@@ -9,7 +9,7 @@
     <title>Profile</title>
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header top-header--transparent">
         <!-- 상단 헤더 영역 -->
         <div class="header__top">
             <div class="header__column">
@@ -46,22 +46,27 @@
     <!-- profile 페이지 메인 영역 -->
     <main class="profile">
         <header class="profile_header">
-            <img src="images/avatar.jpg" alt="">
-            <h3 class="profile__header-title">KwangJin</h3>
-        </header>
-        <input type="text" placeholder="sweetmandoo@hotmail.com">
-        <div class="profile__actions">
-            <div class="profile__action">
-                <span class="profile__action-circle">
-                    <i class="fas fa-comment fa-2x"></i>
-                </span>
-                <span class="profile__action-title">My Chatroom</span>
+            <div class="profile__header-container">
+                <img src="images/avatar.jpg" alt="">
+                <h3 class="profile__header-title">KwangJin</h3>
             </div>
-            <div class="profile__action">
-                <span class="profile__action-circle">
-                    <i class="fas fa-pencil-alt fa-2x"></i>
-                </span>
-                <span class="profile__action-title">Edit Profile</span>
+        </header>
+
+        <div class="profile-container">
+            <input type="text" placeholder="sweemando@gamil.com">
+            <div class="profile__actions">
+                <div class="profile__action">
+                    <span class="profile__action-circle">
+                        <i class="fas fa-comment fa-lg"></i>
+                    </span>
+                    <span class="profile__action-title">My Chatroom</span>
+                </div>
+                <div class="profile__action">
+                    <span class="profile__action-circle">
+                        <i class="fas fa-pencil-alt fa-lg"></i>
+                    </span>
+                    <span class="profile__action-title">Edit Profile</span>
+                </div>
             </div>
         </div>
     </main>
