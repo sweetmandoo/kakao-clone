@@ -53,10 +53,18 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    position: absolute;
+    position: fixed;
     right: 20px;
     bottom: 80px;
     font-size: 20px;
     color: #523737;
+    cursor: pointer;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    transition: color 3s, background-color 5s, transform 3s;
+}
+
+.chat-btn:hover {
+    color: white;
+    background-color: #523737;
+    transform: rotate(360deg);
 }
